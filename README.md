@@ -1,33 +1,24 @@
-# Website
+# Mongo Dash Docs
+> Repository for Docusaurus documentation for Mongo Dash
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 ## Installation
+To install the prerequisites:
 
-```console
-yarn install
+```shell
+$   npm install
 ```
 
-## Local Development
+## Usage
+For local development, run:
 
-```console
-yarn start
+```shell
+$   npm run dev
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+To build and serve and locally:
 
-## Build
-
-```console
-yarn build
+```shell
+$   npm run build
+$   npm run serve
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
