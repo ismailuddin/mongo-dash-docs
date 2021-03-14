@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Mongo Dash',
   tagline: 'Dashboards for MongoDB',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://mongo-dash-docs.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -17,6 +17,11 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          to: 'https://mongo-dash.vercel.app/',
+          label: 'Website',
+          position: 'left',
+        },
         {
           to: 'docs/',
           activeBasePath: 'docs',

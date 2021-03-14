@@ -13,7 +13,7 @@ $   npm install
 For local development, run:
 
 ```shell
-$   npm run dev
+$   npm start
 ```
 
 To build and serve and locally:
