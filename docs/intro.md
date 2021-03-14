@@ -30,3 +30,5 @@ stored in a MongoDB database. Since your data can take on any kind of schema,
 its current format, to one which is compatible with Mongo Dash. These are simply
 MongoDB aggregation pipelines that can be setup and previewed directly via the
 dashboard web app.
+
+View an example dashboard [here](https://mongo-dash.herokuapp.com/app).

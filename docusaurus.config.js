@@ -15,17 +15,23 @@ module.exports = {
       logo: {
         alt: 'Mongo Dash',
         src: 'img/logo.svg',
+        href: '/docs'
       },
       items: [
+        {
+          to: 'docs/',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
+        },
         {
           to: 'https://mongo-dash.vercel.app/',
           label: 'Website',
           position: 'left',
         },
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'https://mongo-dash.herokuapp.com/app/dashboards',
+          label: 'Example dashboard',
           position: 'left',
         },
         {
